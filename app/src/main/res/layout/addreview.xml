@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Rate Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+         android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/ratingP"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:text="0%"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <EditText
+        android:id="@+id/Reveiwtitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingP"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Review Title"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/reviewdesc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Reveiwtitle"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/submitreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reviewdesc"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/black_button"
+        android:layout_marginTop="15dp"
+        android:text="submit"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/White" />
+
+    <ImageButton
+        android:id="@+id/review_cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_close_black_24dp"
+        android:background="@color/White" />
+
+</RelativeLayout>

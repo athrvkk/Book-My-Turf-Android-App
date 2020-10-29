@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".account"
+    android:background="@drawable/grass1"
+    >
+
+
+
+    <TextView
+        android:id="@+id/ac_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Your Account"
+        android:textColor="@color/White"
+        android:textSize="40dp" />
+
+
+    <ImageView
+        android:id="@+id/ProfilePhoto"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/ac_title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_account_circle_white_24dp" />
+
+    <EditText
+        android:id="@+id/ac_name"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:background="@drawable/textview_custom"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/ac_phone"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/ac_editcall"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textview_custom"
+        android:ems="10"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/ac_change_pass"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="191dp"
+        android:background="@drawable/black_button"
+        android:text="Change Password?"
+        android:textColor="@color/White" />
+
+
+    <EditText
+        android:id="@+id/ac_oldpass"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/textview_custom"
+        android:ems="10"
+        android:hint="Enter old Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:visibility="invisible"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/ac_newpass"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/textview_custom"
+        android:ems="10"
+        android:hint="Enter new Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:visibility="invisible"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/ac_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/black_button"
+        android:text="Done"
+        android:textColor="@color/White"
+        />
+
+    <ImageView
+        android:id="@+id/ac_editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/ic_edit_white_24dp" />
+
+    <ImageView
+        android:id="@+id/ac_editcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ac_editname"
+        android:layout_marginTop="236dp"
+        android:src="@drawable/ic_edit_white_24dp" />
+
+
+
+
+</RelativeLayout>

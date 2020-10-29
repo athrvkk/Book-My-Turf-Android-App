@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/nav_acc"
+        android:title="Edit Account"
+        android:icon="@drawable/ic_person_black_24dp"/>
+
+        <item android:id="@+id/nav_cancel"
+            android:title="View Bookings"
+            android:icon="@drawable/ic_book_black">
+
+        </item>
+    <item android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:icon="@drawable/ic_logout"/>
+
+    </group>
+
+</menu>

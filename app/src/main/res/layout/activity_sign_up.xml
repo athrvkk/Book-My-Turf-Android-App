@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/football4">
+
+
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:text="Sign Up!"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/black_button"
+        android:text="Confirm"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="325dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="325dp"
+                android:layout_height="51dp"
+                android:layout_below="@+id/editText12"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:ems="10"
+                android:layout_marginTop="15dp"
+                android:hint="Enter Email ID"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="325dp"
+                android:layout_height="51dp"
+                android:layout_below="@+id/editText10"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:ems="10"
+                android:hint="Enter Password"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="325dp"
+                android:layout_height="51dp"
+                android:layout_below="@+id/editText6"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:ems="10"
+                android:layout_marginTop="15dp"
+                android:hint="Enter Contact Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="325dp"
+                android:layout_height="51dp"
+                android:layout_below="@+id/editText11"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"/>
+
+
+
+</RelativeLayout>

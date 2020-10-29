@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "917600826133",
+    "firebase_url": "https://demohome-4bde4.firebaseio.com",
+    "project_id": "demohome-4bde4",
+    "storage_bucket": "demohome-4bde4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917600826133:android:432f8d2627e839c4",
+        "android_client_info": {
+          "package_name": "com.nirajkulkani.demo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917600826133-p8pego5uhbcf8h2pocchilooii7b7tbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nirajkulkani.demo1",
+            "certificate_hash": "38d79a262b7696b7e38f4a52a8b754225a545661"
+          }
+        },
+        {
+          "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABC5aUdhhtg-asPiGDfj8DChJv_7n0Y-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917600826133:android:f5885850c1e1742e",
+        "android_client_info": {
+          "package_name": "com.nirajkulkani.demohome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917600826133-us5shbvplgh4bvkk8k934d6qoenavrdn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nirajkulkani.demohome",
+            "certificate_hash": "38d79a262b7696b7e38f4a52a8b754225a545661"
+          }
+        },
+        {
+          "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABC5aUdhhtg-asPiGDfj8DChJv_7n0Y-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917600826133:android:6f777fad8f989adf",
+        "android_client_info": {
+          "package_name": "com.nirajkulkani.turfbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917600826133-2njt7b9b1lg2p1dvm6qqp8f495gjmmn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nirajkulkani.turfbooking",
+            "certificate_hash": "38d79a262b7696b7e38f4a52a8b754225a545661"
+          }
+        },
+        {
+          "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABC5aUdhhtg-asPiGDfj8DChJv_7n0Y-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917600826133:android:ba01590a030cd649",
+        "android_client_info": {
+          "package_name": "com.nirajkulkani.uploadturfpics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917600826133-ppp8jbbsvljenq25tj7ridbfjg6m2a3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nirajkulkani.uploadturfpics",
+            "certificate_hash": "38d79a262b7696b7e38f4a52a8b754225a545661"
+          }
+        },
+        {
+          "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABC5aUdhhtg-asPiGDfj8DChJv_7n0Y-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917600826133-p1d8fnqrkeprtk87co9kj1o38ng7lacs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
